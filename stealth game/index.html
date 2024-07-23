@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+        canvas { border: 1px solid black; }
+        #menu { position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.7); color: white; padding: 10px; }
+        #menu button { display: block; margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div id="menu">
+        <h2>Gun Shop</h2>
+        <button id="basicGunBtn">Buy Basic Gun - 0 coins</button>
+        <button id="advancedGunBtn">Buy Advanced Gun - 100 coins</button>
+        <button id="powerfulGunBtn">Buy Powerful Gun - 500 coins</button>
+        <button id="ultimateGunBtn">Buy Ultimate Gun - 2000 coins</button>
+        <p id="currentWeapon">Current Weapon: Basic Gun</p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
