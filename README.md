@@ -1,0 +1,1 @@
+uh, these suck but i still made them. the survival game is legit just a blue sky with a player from adobe stock (all of the images are adobe stock) unable to move, and i cba to make it work
